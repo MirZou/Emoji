@@ -1,0 +1,2 @@
+include ':app', ':bqlibrary'
+rootProject.name='Emoji'
