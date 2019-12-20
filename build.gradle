@@ -22,6 +22,22 @@ allprojects {
     }
 }
 
+ext {
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+    minSdkVersion = 21
+    targetSdkVersion = 28
+
+    versionCode = 30
+    versionName = "3.8.2"
+    supportVersion = "28.0.0"
+
+    glide = "3.7.0"
+    CONSTRAIT_SUPPORT_VERSION = "1.1.2"
+    appSourceCompatibility = JavaVersion.VERSION_1_8
+    appTargetCompatibility = JavaVersion.VERSION_1_8
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
